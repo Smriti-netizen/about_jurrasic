@@ -1,0 +1,265 @@
+@charset "utf-8";
+/*CSS DOC*/
+body{
+    background-color: white;
+}
+.heading{
+    display: flex;
+    background-color: black;
+    height: 150px;
+    width: 100%;
+}
+.heading h1{
+    color:rgb(202, 131, 0);
+    font-size: 50px;
+}
+.heading img{
+    margin-left: 400px;
+}
+nav{
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 100px;
+}
+a:link{
+    text-decoration: none;
+    color: rgb(202, 131, 0);
+}
+ nav ul{
+    list-style: none;
+    display: flex;
+}
+nav ul{
+    font-size: 30px;
+}
+nav ul a{
+    border: 2px solid black;
+    margin: 2px;
+    padding: 10px 15px;
+    text-align: center;
+}
+#kl{
+    margin-left: 350px;
+}
+nav ul a:hover{
+    transform: scale(1.1);
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+}
+#rq{
+    color:gray;
+}
+.container{
+    height: 100px;
+    width: 100%;
+}
+.container h1{
+    font-size: 40px;
+    color: black;
+    text-align: center;
+}
+.intro img{
+    margin-left: 450px;
+    margin-top: 2px;;
+}
+.in{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    color: black;
+    line-height: 50px;
+}
+hr{
+    width: 90%;
+    background-color: peru;
+    color:peru;
+    height: 9px;
+    align-items: center;
+    border: none;
+    outline: none;
+}
+.adv h1{
+    font-size: 30px;
+    color: black;
+    margin-left: 50px;
+    margin-top: 2px;
+}
+.adv p{
+    color: black;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 40px;
+    margin-left: 50px;
+}
+.adv ul li{
+    list-style-type: style arrow;;
+    margin-left: 50px;
+}
+.adv ul li{
+    font-size: 25px;
+    color: black;
+}
+.adv ul li:hover{
+    color: peru;
+}
+.team{
+    background-color: lightblue;
+    width: 90%;
+}
+.team1{
+    display: flex;
+}
+.mem1 img,.mem2 img{
+    height: 300px;
+    width: 300px;
+}
+.mem1 img{
+    margin-left: 200px;
+}
+.mem1 h5,.mem1 p{
+    margin-left: 200px;
+}
+.mem1 h5,.mem2 h5{
+    font-size: 25px;
+    color: black;
+}
+.mem1 h5:hover,.mem2 h5:hover{
+    color: peru;
+}
+.mem1 p,.mem2 p{
+    font-size: 20px;
+    color: black;
+    font-weight: 100;
+} 
+.team2{
+    display: flex;
+}
+.mem3 img,.mem4 img{
+    height: 300px;
+    width: 300px;
+}
+.mem3 img{
+    margin-left: 200px;
+}
+.mem3 h5,.mem3 p{
+    margin-left: 200px;
+}
+.mem3 h5,.mem4 h5{
+    font-size: 25px;
+    color: black;
+}
+.mem3 h5:hover,.mem4 h5:hover{
+    color: peru;
+}
+.mem3 p,.mem4 p{
+    font-size: 20px;
+    color: black;
+    font-weight: 100;
+} 
+.last h1{
+    font-size: 30px;
+    color: black;
+    margin-left: 50px;
+    margin-top: 2px;
+}
+.last p{
+    color: black;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 40px;
+    margin-left: 50px;
+}
+.last ul li{
+    list-style-type: style arrow;;
+    margin-left: 50px;
+}
+.last ul li{
+    list-style-type: style arrow;;
+    margin-left: 50px;
+}
+.last ul li{
+    font-size: 25px;
+    color: black;
+}
+.last ul li:hover{
+    color: peru;
+}
+.f,.s{
+    display: flex;
+}
+.f img,.s img{
+    height:200px;
+    width: 200px;
+    margin-left: 10px;
+}
+.f p,.s p{
+    font-size: 25px;
+    color: black;
+    font-weight: 300;
+    margin-left: 50px;
+}
+.test h1{
+    font-size: 50px;
+    color: black;
+    margin-top: 2px;
+    margin-left: 30px;
+}
+footer{
+    height:300px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    font-family: calibri;
+}
+footer{
+    background-color: black;
+    opacity: 0.9;
+    margin-top: 10px;
+}
+footer p:nth-child(1){
+    font-size:30px;
+    font-weight: bold;
+    color:white;
+    line-height: 10px;
+}
+footer p:nth-child(2),footer p:nth-child(3){
+    font-size: 20px;
+    color: white;
+    width:600px;
+    text-align: center;
+}
+.social-icons a{
+    width:40px;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color :white;
+    margin:20px 10px;
+    border-radius: 50%;
+}
+.social-icons{
+    display: flex;
+}
+.copyright{
+    color: black;
+    font-size:15px;
+}
+.social-icons i{
+    color:#000000;
+
+}
+.social-icons a:hover{
+    background-color:grey;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    transition: all ease 0.5s;
+}
+.social-icons a:hover i{
+    color:black;
+    transition: all ease 0.5s;
+}
